@@ -9,12 +9,12 @@ This repository contains a curated list of awesome data data catalogs and observ
 |[OSS](#opensource) | [Proprietary](#proprietary) | [Single-Cloud](#singlecloud) | [Observability](#observability)
 |--------------------|-----------------------------|------------------------------|-------------------------------
 |[🔍 Amundsen](#amundsen) | [🔍 Ataccama](#ataccama) | [🔍 Azure DC](#azure) | [🔍 Monte Carlo](#montecarlo)
-|[🔍 Atlas](#atlas) |[🔍 Atlan](#atlan) | [🔍 Azure DC](#azure) | [🔍 Databand](#databand)
-|[🔍 DataHub](#datahub) | [🔍 Alation](#alation) | 🔍 Google DC](#google) | [🔍 Acceldata](#acceldata)
+|[🔍 Atlas](#atlas) |[🔍 Atlan](#atlan) | [🔍 Google DC](#google) | [🔍 Databand](#databand)
+|[🔍 DataHub](#datahub) | [🔍 Alation](#alation) | | [🔍 Acceldata](#acceldata)
 |[🔍 Marquez](#marquez) |[🔍 Collibra](#collibra) | |  
 |[🔍 CKAN](#ckan) | [🔍 Informatica](#informatica) | |
 |[🔍 Magda](#magda) | [🔍 Stemma](#stemma)| |
-|[🔍 | Data World](#dataworld) | |
+| | [🔍 Data World](#dataworld) | |
 
 <br>
 
@@ -34,8 +34,9 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Atlas 
 
 |No Vendor Lock | Supported Sources | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Cross-company Observability
-|-----------------------|-----------------------------------------------------------------------------------------------------------
+|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
 | Yes | Limited | No | No | Roadmap | No | No
+
 
 <br>
 
@@ -47,8 +48,9 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Ataccama
 
 |No Vendor Lock | Supported Sources | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Cross-company Observability
-|-----------------------|-----------------------------------------------------------------------------------------------------------
+|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
 | Yes | Limited | No | No | Roadmap | No | No
+
 
 
  
