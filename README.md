@@ -6,14 +6,14 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 ## Contents: Existing Data Discovery and Observability Solutions
 
-|[OSS](#opensource) |[Proprietary](#proprietary) | [Single-Cloud](#singlecloud)| [Observability](#observability)
-|-----------------------|------------------------------------------
+|[OSS](#opensource) | [Proprietary](#proprietary) | [Single-Cloud](#singlecloud) | [Observability](#observability)
+|--------------------|-----------------------------|------------------------------|-------------------------------
 |[🔍 Amundsen](#amundsen) | [🔍 Ataccama](#ataccama) | [🔍 Azure DC](#azure) | [🔍 Monte Carlo](#montecarlo)
 |[🔍 Atlas](#atlas) |[🔍 Atlan](#atlan) | [🔍 Azure DC](#azure) | [🔍 Databand](#databand)
 |[🔍 DataHub](#datahub) | [🔍 Alation](#alation) | 🔍 Google DC](#google) | [🔍 Acceldata](#acceldata)
-|[🔍 Marquez](#marquez) |[🔍 Collibra](#collibra)| |  
-|[🔍 CKAN](#ckan) |[🔍 Informatica](#informatica)| |
-|[🔍 Magda](#magda) |[🔍 Stemma](#stemma)| |
+|[🔍 Marquez](#marquez) |[🔍 Collibra](#collibra) | |  
+|[🔍 CKAN](#ckan) | [🔍 Informatica](#informatica) | |
+|[🔍 Magda](#magda) | [🔍 Stemma](#stemma)| |
 |[🔍 | Data World](#dataworld) | |
 
 <br>
@@ -26,7 +26,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Amundsen 
 
 |No Vendor Lock | Supported Sources | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Cross-company Observability
-|-----------------------|-----------------------------------------------------------------------------------------------------------
+|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
 | Yes | Limited | No | No | Roadmap | No | No
 
 
