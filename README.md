@@ -1,37 +1,5 @@
-<table>
-   <tr>
-        < width = 20% > column width ` width = 20% ` < / th >
-        < width = 45% style = "text align: Center" > center header ` style = "text align: Center" ` < / th >
-        < th width = 20% style = "text align: right" > right < / th >
-        < th width = 5% > column 3 < / th >
-   </tr>
-   <tr>
-        < td > set background color</td>
-        <td bgcolor=rgb(92, 184, 92)>`bgcolor=rgb(92, 184, 92)`</td>
-        <td bgcolor=#eea236>`bgcolor=#eea236`</td>
-        <td bgcolor=pink>`bgcolor=pink`</td>
-   </tr>
-   <tr>
-        <td>**Merge columns**</td>
-        < TD colSpan = 3 align = center > ` start colSpan = 2 ` ` align = center`</td>
-   </tr>
-   <tr>
-        < TD rowspan = 3 > * * consolidated line * * < br > ` start line rowspan = 3`</td>
-        < TD align = center > ` align = center 'is not valid for' th '</td>
-        <td>cell</td>
-        <td>cell</td>
-   </tr>
-   <tr>
-        <td style="text-align:right">`style="text-align:right"`</td>
-        <td>cell</td>
-        < TD rowspan = 2 > merge rows ` rowspan = 2`</td>
-   </tr>
-   <tr>
-        <td>cell</td>
-        <td>cell</td>
-   </tr>
-   <tr><td>cell</td><td>cell</td><td>cell</td><td>cell</td></tr>
-</table>
+
+
 
 # Awesome Data Discovery and Observability
 
@@ -68,12 +36,12 @@ This repository contains a curated list of awesome data data catalogs and observ
 <summary>More features</summary>
 <br>
 <ul>
-<li><b>**Strategy:** Push </li></b>
-<li> **UX personalization:** No</li></b> 
-<li> **AI autowiring:** No</li></b> 
-<li> **Network-based:** Yes</li></b> 
-<li> **Rich data profiling:** No</li></b> 
-<li> **Supported data sources:**  </li></b>
+<li><b>Strategy:</b> Push </li>
+<li><b> UX personalization:</b> No</li> 
+<li><b> AI autowiring:</b> No</li> 
+<li><b> Network-based:</b> Yes</li> 
+<li><b> Rich data profiling:</b>  No</li> 
+<li><b>Supported data sources:</b> </li>
 </ul>
 </details>
 
