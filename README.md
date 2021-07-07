@@ -1,3 +1,18 @@
+<style>
+.heatMap {
+    width: 70%;
+    text-align: center;
+}
+.heatMap th {
+background: grey;
+word-wrap: break-word;
+text-align: center;
+}
+.heatMap tr:nth-child(1) { background: red; }
+.heatMap tr:nth-child(2) { background: orange; }
+.heatMap tr:nth-child(3) { background: green; }
+</style>
+
 # Awesome Data Discovery and Observability
 
 This repository contains a curated list of awesome data data catalogs and observability platforms that will help you discover, observe and manage data in your organization. 
@@ -26,7 +41,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Amundsen 
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|--------------------  
 | No | No | No | No | No | No
 
 <details>
@@ -47,7 +62,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### DataHub
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | No | No | No
 
 <details>
@@ -66,7 +81,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Marquez
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | OpenLineage | No | No | No | No | No
 
 <details>
@@ -86,7 +101,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Atlas 
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | No | No | No
 
 <details>
@@ -106,7 +121,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### CKAN
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | Yes  | No | No | No | No 
 
 <details>
@@ -128,7 +143,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Magda
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | Yes  | No | No | No | No 
 
 <details>
@@ -152,7 +167,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Collibra
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | ? | No | No
 
 <details>
@@ -171,7 +186,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Informatica
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No |  No | No | ? | No | No
 
 <details>
@@ -190,7 +205,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Alation
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | Yes | No | No
 
 <details>
@@ -209,7 +224,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Atlan
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | Yes | No | No
 
 <details>
@@ -228,7 +243,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Ataccama
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No|  No | No | Yes | No | No
 
 <details>
@@ -247,7 +262,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Stemma
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No |  No | No | No | No | No
 
 <details>
@@ -266,7 +281,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Talend
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | Yes | No | No
 
 <details>
@@ -288,7 +303,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Google Cloud Data Catalog
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | ? | No | No
 
 <details>
@@ -308,7 +323,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Azure Data Catalog
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | ? | No | No
 
 <details>
@@ -330,8 +345,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Monte Carlo
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
-| No |  No | No | Yes | No | No
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 
 <details>
 <summary>More features</summary>
@@ -349,7 +363,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Databand
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | Yes | No | No
 
 <details>
@@ -368,7 +382,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Datafold
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|--------------------|---------------------------
+|----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | Yes| No | No
 
 <details>
@@ -385,20 +399,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 
  ## Table Styling in Markdown
 
-<style>
-.heatMap {
-    width: 70%;
-    text-align: center;
-}
-.heatMap th {
-background: grey;
-word-wrap: break-word;
-text-align: center;
-}
-.heatMap tr:nth-child(1) { background: red; }
-.heatMap tr:nth-child(2) { background: orange; }
-.heatMap tr:nth-child(3) { background: green; }
-</style>
+
 
 <div class="heatMap">
 
