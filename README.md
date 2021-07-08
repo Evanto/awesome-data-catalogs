@@ -455,7 +455,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 <br> 
 
 
-<table style="width:100%; margin:0;" cellpadding="0" cellspacing="0" border="0">
+<table style="background-color: coral;width: 100%;border-collapse: collapse;">
 <thead>
 <tr>
 <th><a href="#opensource">OSS</a></th>
