@@ -19,6 +19,8 @@ This repository contains a curated list of awesome data data catalogs and observ
 |[📓 Magda](#magda) | | |
 
 
+
+
 <br>
 
 <a name="opensource"></a>
@@ -452,3 +454,87 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <br> 
 
+
+<table style="width:100%; margin:0;" cellpadding="0" cellspacing="0" border="0">
+<thead>
+<tr>
+<th><a href="#opensource">OSS</a></th>
+<th><a href="#proprietary">Proprietary</a></th>
+<th><a href="#monocloud">Monocloud</a></th>
+<th><a href="#observability">Observability</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#amundsen">📓 Amundsen</a></td>
+<td><a href="#collibra">📓 Collibra</a></td>
+<td><a href="#google">📓 Google DC</a></td>
+<td><a href="#montecarlo">🔍 Monte Carlo</a></td>
+</tr>
+<tr>
+<td><a href="#datahub">📓 DataHub</a></td>
+<td><a href="#informatica">📓 Informatica</a></td>
+<td><a href="#azure">📓 Azure DC</a></td>
+<td><a href="#databand">🔍 Databand</a></td>
+</tr>
+<tr>
+<td><a href="#marquez">📓 Marquez</a></td>
+<td><a href="#alation">📓 Alation</a></td>
+<td></td>
+<td><a href="#datafold">🔍 Datafold</a> </td>
+</tr>
+<tr>
+<td><a href="#atlas">📓 Atlas</a></td>
+<td><a href="#atlan">📓 Atlan</a></td>
+<td></td>
+<td><a href="#ataccama">🔍 Ataccama</a></td>
+</tr>
+<tr>
+<td><a href="#ckan">📓 CKAN</a></td>
+<td><a href="#stemma">📓Stemma</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#magda">📓 Magda</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+<table>
+  <caption>2019 Fourth Quarter Report</caption>
+  <thead>
+    <tr>
+      <th><!-- Intentionally Blank --></th>
+      <th>October</th>
+      <th>November</th>
+      <th>December</th>
+    <tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Projected</th>
+      <td>$820,180</td>
+      <td>$841,640</td>
+      <td>$732,270</td>
+    </tr>
+    <tr>
+      <th>Actual</th>
+      <td>$850,730</td>
+      <td>$892,580</td>
+      <td>$801,240</td>
+    </tr>
+    <tr>
+      <th>Utilization</th>
+      <td>83%</td>
+      <td>90%</td>
+      <td>75%</td>
+    </tr>
+  </tbody>
+</table>
