@@ -14,9 +14,9 @@ This repository contains a curated list of awesome data data catalogs and observ
 |[📓 Amundsen](#amundsen) | [📓 Collibra](#collibra) | [📓 Google DC](#google) | [🔍 Monte Carlo](#montecarlo)
 |[📓 DataHub](#datahub) | [📓 Informatica](#informatica) | [📓 Azure DC](#azure) | [🔍 Databand](#databand)
 |[📓 Marquez](#marquez) |[📓 Alation](#alation) | |  [🔍 Datafold](#datafold) 
-|[📓 Atlas](#atlas) |[📓 Atlan](#atlan) | | [📓 Ataccama](#ataccama)
-|[📓 CKAN](#ckan) |  | |
-|[📓 Magda](#magda) | [📓Stemma](#stemma)| |
+|[📓 Atlas](#atlas) |[📓 Atlan](#atlan) | | [🔍 Ataccama](#ataccama)
+|[📓 CKAN](#ckan) | [📓Stemma](#stemma) | |
+|[📓 Magda](#magda) | | |
 
 
 <br>
@@ -110,7 +110,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
-| No | No | No | No | No | No
+| ❌ | ❌ | ❌| ❌ | ❌ | ❌ 
 
 
 <details>
@@ -132,7 +132,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### CKAN
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|-:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
+|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ✔️ | ❌| ❌ | ❌ | ❌ 
 
 
@@ -450,42 +450,3 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <br> 
 
-## <span style='background :yellow' > Background color is yellow </span> 
-
-`print('Hello World')`
-
-
-<style>
-   tbody tr:nth-child(odd){
-    background-color: #F7FBFF;
-  }
-</style>
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-
-<div class="alert-success">
-This is a green colored box
-</div>
-
-<div class="alert-danger">
-This is a red colored box
-</div>
-
-<div class="alert-warning">
-This is a yellow colored box
-</div>
-
-<div class="alert-info">
-This is a blue colored box
-</div
-
-
-<style>
-table {
-    width:100%;
-}
-</style>
