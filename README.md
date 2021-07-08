@@ -14,8 +14,8 @@ This repository contains a curated list of awesome data data catalogs and observ
 |[📓 Amundsen](#amundsen) | [📓 Collibra](#collibra) | [📓 Google DC](#google) | [🔍 Monte Carlo](#montecarlo)
 |[📓 DataHub](#datahub) | [📓 Informatica](#informatica) | [📓 Azure DC](#azure) | [🔍 Databand](#databand)
 |[📓 Marquez](#marquez) |[📓 Alation](#alation) | |  [🔍 Datafold](#datafold) 
-|[📓 Atlas](#atlas) |[📓 Atlan](#atlan) | |
-|[📓 CKAN](#ckan) | [📓 Ataccama](#ataccama) | |
+|[📓 Atlas](#atlas) |[📓 Atlan](#atlan) | | [📓 Ataccama](#ataccama)
+|[📓 CKAN](#ckan) |  | |
 |[📓 Magda](#magda) | [📓Stemma](#stemma)| |
 
 
@@ -28,6 +28,8 @@ This repository contains a curated list of awesome data data catalogs and observ
 <a name="amundsen"></a>
 ### Amundsen 
 
+
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |----------------|-------|------------------------|----------------|--------------|--------------------  
 | No | No | No | No | No | No
@@ -37,11 +39,22 @@ This repository contains a curated list of awesome data data catalogs and observ
 <br>
 <ul>
 <li><b>Strategy:</b> Push </li>
-<li><b> UX personalization:</b> No</li> 
-<li><b> AI autowiring:</b> No</li> 
-<li><b> Network-based:</b> Yes</li> 
-<li><b> Rich data profiling:</b>  No</li> 
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> Yes</li> 
+<li><b>Rich data profiling:</b>  No</li> 
 <li><b>Supported data sources:</b> </li>
+<li><b>Search-based:</b> Yes </li>
+<li><b>Recommendations:</b> Yes </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> No </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Yes</li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>Change notifications:</b>No </li>
+<li><b>Change feed:</b> No </li>
+<li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
 </ul>
 </details>
 
@@ -56,12 +69,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Strategy:* Push </li>
-<li>*UX personalization:* No</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* Yes</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push, Pull</li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> Yes</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b> Hive, Kafka, RDBMS </li>
+</ul>
 </details>
 
 <br>
@@ -73,15 +89,18 @@ This repository contains a curated list of awesome data data catalogs and observ
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
 | OpenLineage | No | No | No | No | No
 
+
 <details>
 <summary>More features</summary>
+<br>
 <ul>
-<li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* No</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b> S3, Kafka </li>
+</ul>
 </details>
 
 <br>
@@ -93,16 +112,19 @@ This repository contains a curated list of awesome data data catalogs and observ
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | No | No | No
 
+
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* No</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>HBase, Hive, Sqoop, Kafka, Storm  </li>
+</ul>
 </details>
-
 
 <br>
 
@@ -110,21 +132,22 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### CKAN
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|----------------|-------|------------------------|----------------|--------------|-------------------- 
-| No | Yes  | No | No | No | No 
+|-:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
+| ❌ | ✔️ | ❌| ❌ | ❌ | ❌ 
+
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* No</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
-</details>
-
-
 <br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
 
 <br>
 
@@ -137,14 +160,16 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* No</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push via UI</li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b> Mostly GeoData </li>
+</ul>
 </details>
-
 
 <br>
 
@@ -159,14 +184,18 @@ This repository contains a curated list of awesome data data catalogs and observ
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | ? | No | No
 
+
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* Yes</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> Yes</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
  <br>
@@ -180,12 +209,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* Yes</li></ul>
-<li>*Rich data profiling:* Yes</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> Yes</li> 
+<li><b>Rich data profiling:</b> Yes</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
  <br>
@@ -199,12 +231,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* Yes</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> Yes</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
  <br>
@@ -216,14 +251,18 @@ This repository contains a curated list of awesome data data catalogs and observ
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | Yes | No | No
 
+
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>Presto, Deequ, Atlas, Airflow, Hudi  </li>
+</ul>
 </details>
 
  <br>
@@ -237,12 +276,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* Yes</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* Yes</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> Yes</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> Yes</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
  <br>
@@ -254,14 +296,18 @@ This repository contains a curated list of awesome data data catalogs and observ
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No |  No | No | No | No | No
 
+
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* No</li></ul>
-<li>*AI autowiring:* No</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* No</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
  <br>
@@ -275,12 +321,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* Yes</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* ?</li></ul>
-<li>*Rich data profiling:* Yes</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> Yes</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> Yes</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
  <br>
@@ -295,16 +344,19 @@ This repository contains a curated list of awesome data data catalogs and observ
 |----------------|-------|------------------------|----------------|--------------|-------------------- 
 | No | No | No | ? | No | No
 
+
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* No</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
-
 
 <br>
 
@@ -317,12 +369,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* ?</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
 <br>
@@ -338,12 +393,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* ?</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b> Snowflake, Hive, Kafka, Looker, Redshift, Tableau, Big Query, Airflow, Fivetran, Presto, Mode, Periscope, Databricks, Glue, dbt, Chartio, Spark, AWS, S3, data.world, Google Cloud Platform </li>
+</ul>
 </details>
 
 <br>
@@ -357,12 +415,15 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* ?</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
 <br>
@@ -376,26 +437,55 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <details>
 <summary>More features</summary>
-<ul><li>*Push/Pull strategy:* Push </li>
-<li>*UX personalization:* ?</li></ul>
-<li>*AI autowiring:* ?</li></ul>
-<li>*Network-based:* ?</li></ul>
-<li>*Rich data profiling:* ?</li></ul>
-<li>*Supported data sources:*  </li></ul>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
 </details>
 
-<br>
+<br> 
 
- ## Table Styling in Markdown
+## <span style='background :yellow' > Background color is yellow </span> 
+
+`print('Hello World')`
 
 
+<style>
+   tbody tr:nth-child(odd){
+    background-color: #F7FBFF;
+  }
+</style>
 
-<div class="heatMap">
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
-| Everything | in this table | is Centered |  and the table will only take up 70% of the screen width  | 
-| -- | -- | -- | -- |
-| This | is | a | Red Row |
-| This | is | an | Orange Row |
-| This | is | a | Green Row |
 
+<div class="alert-success">
+This is a green colored box
 </div>
+
+<div class="alert-danger">
+This is a red colored box
+</div>
+
+<div class="alert-warning">
+This is a yellow colored box
+</div>
+
+<div class="alert-info">
+This is a blue colored box
+</div
+
+
+<style>
+table {
+    width:100%;
+}
+</style>
